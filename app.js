@@ -13,7 +13,7 @@ const check = (ip, port) => {
         console.log(`statusCode: ${res.statusCode}`)
 
         if (res.statusCode == 200) {
-            fs.appendFile('workingPeerList.txt', options.hostname + options.port + " peer ", function (err) {
+            fs.appendFile('workingPeerList.txt',`${options.hostname}:${options.port} peer `, function (err) {
                 if (err) throw err;
                 total++
                 console.log(`Saved!  Total: ${total}`);
