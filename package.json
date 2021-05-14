@@ -1,0 +1,15 @@
+{
+  "name": "arweave-peer-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Theleaks",
+  "license": "ISC"
+}
